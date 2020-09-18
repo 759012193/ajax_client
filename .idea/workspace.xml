@@ -1,0 +1,1008 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="3d9c6af4-651f-4657-9caf-c05c4f2edc5b" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/public/css/cssreset.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/api/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/api/userApi.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Footer.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/TopLink.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/TopNav.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/config/config.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/activities/Activities.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/activities/pages/ActivitiesDetail.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/activities/pages/ActivitiesList.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/home/Home.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/home/components/HomeActivities.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/home/components/HomeCard.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/home/components/HomeJob.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/home/components/HomeLive.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/home/components/HomeNav.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/home/components/HomeResource.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/home/components/HomeSowing.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/lifejob/LifeJob.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/lifejob/pages/LifeJobDetail.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/lifejob/pages/LifeJobList.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/live/Live.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/login/Login.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/not-found/NotFound.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/notFound/NotFound.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/notFound/images/404.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/notFound/notFound.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/register/Register.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/resource/Resource.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/resource/pages/ResourceDetail.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/resource/pages/ResourceList.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/user-center/UserCenter.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/user-center/pages/UserAccount.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/user-center/pages/UserActivities.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/user-center/pages/UserFav.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/user-center/pages/UserLive.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/user-center/pages/UserResource.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/setupProxy.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/static/css/common.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/static/css/index.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/static/images/404.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/static/images/activitie_con_pic_1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/static/images/activitie_con_pic_2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/static/images/activitie_con_pic_3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/static/images/activitie_con_pic_4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/static/images/activities_con_pic_1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/static/images/app_load.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/static/images/ar_btn.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/static/images/banner.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/static/images/banner_activity.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/static/images/banner_live.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/static/images/bannerx.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/static/images/bg.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/static/images/bg2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/static/images/btn.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/static/images/comment-count.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/static/images/copyright_ico.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/static/images/date_ico.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/static/images/decline_ico.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/static/images/dh_ico.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/static/images/dl8.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/static/images/dl9.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/static/images/fangxiang.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/static/images/fav_ico.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/static/images/fav_ico_ed.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/static/images/focus01.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/static/images/focus022.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/static/images/focus03.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/static/images/hd_ewm.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/static/images/hd_img.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/static/images/header-line.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/static/images/header-subicon.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/static/images/huiben1920.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/static/images/icon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/static/images/icon_s.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/static/images/idot.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/static/images/index-01.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/static/images/indexmark_ico.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/static/images/info-tip.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/static/images/jiao.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/static/images/joblife_con_other_avatar.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/static/images/joblife_con_pic_1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/static/images/joblife_con_pic_2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/static/images/jptj_con_other_avatar.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/static/images/jptj_con_pic_1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/static/images/jptj_con_pic_2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/static/images/jrhy_ico.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/static/images/jscz1920.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/static/images/kf_ico.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/static/images/l-icon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/static/images/li_bg.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/static/images/like_ico.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/static/images/likeed_ico.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/static/images/live_con_other_avatar.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/static/images/live_con_pic_1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/static/images/live_con_pic_2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/static/images/live_con_pic_3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/static/images/live_con_pic_4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/static/images/lives_con_pic_1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/static/images/lm_more_ico.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/static/images/loading.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/static/images/loading_16.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/static/images/login_banner.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/static/images/login_box.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/static/images/logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/static/images/member_avatar.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/static/images/member_bg.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/static/images/mess-ok.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/static/images/myaccount_ico.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/static/images/myaccount_ico_ing.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/static/images/myactivity_ico.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/static/images/myactivity_ico_ing.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/static/images/myfav_ico.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/static/images/myfav_ico_ing.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/static/images/mylive_ico.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/static/images/mylive_ico_ing.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/static/images/myresource_ico.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/static/images/myresource_ico_ing.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/static/images/new_ico.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/static/images/nextbtn.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/static/images/nextbtntop.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/static/images/open_check.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/static/images/other-bg.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/static/images/p-pic.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/static/images/prevbtn.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/static/images/prevbtntop.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/static/images/ranking_five.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/static/images/ranking_frou.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/static/images/ranking_one.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/static/images/ranking_three.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/static/images/ranking_two.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/static/images/resource_con_pic_1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/static/images/resource_con_pic_2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/static/images/resource_con_pic_3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/static/images/resource_con_pic_4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/static/images/resource_cons_right_rank_content_list_img.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/static/images/resources_cat_ico_1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/static/images/resources_cat_ico_2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/static/images/resources_cat_ico_3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/static/images/resources_cat_ico_4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/static/images/right.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/static/images/right.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/static/images/rise_ico.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/static/images/rise_ico.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/static/images/row.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/static/images/s-ewm.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/static/images/sc_ico.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/static/images/scrool_btn.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/static/images/sear_btn.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/static/images/search_btn.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/static/images/search_btn01.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/static/images/select-icon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/static/images/service_ico.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/static/images/share_kj_ico.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/static/images/share_qq_ico.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/static/images/share_wb_ico.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/static/images/share_wx_ico.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/static/images/show_img.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/static/images/shutiao.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/static/images/shutiao2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/static/images/signup_ico.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/static/images/singinico.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/static/images/sm_ico.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/static/images/small_icon3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/static/images/study-icon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/static/images/subject_logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/static/images/subject_sub.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/static/images/subscribe_ico.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/static/images/success_img.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/static/images/tiao4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/static/images/tit_bg.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/static/images/toolbars.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/static/images/video.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/static/images/view_ico.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/static/images/vip_ico.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/static/images/weixin.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/static/images/weixin1920.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/static/images/x5.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/static/images/xcx.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/static/images/xian.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/static/images/yejy.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/static/images/yejy.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/static/images/yszj_btn.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/static/images/yuer1920.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/static/images/yuer_l.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/static/images/yuer_m.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/static/images/yuer_r.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/static/images/电脑.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/static/picture/02.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/static/picture/03.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/static/picture/04.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/static/picture/1920.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/static/picture/201201.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/static/picture/201202.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/static/picture/201301.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/static/picture/201302.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/static/picture/201401.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/static/picture/201402.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/static/picture/201501.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/static/picture/201601.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/static/picture/201602.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/static/picture/201701.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/static/picture/201702.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/static/picture/2018jmggjs470.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/static/picture/banner_01.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/static/picture/banner_02.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/static/picture/cxp366.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/static/picture/diy01.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/static/picture/diy02.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/static/picture/diy03.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/static/picture/diy04.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/static/picture/father470.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/static/picture/focus01.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/static/picture/footer_app.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/static/picture/footer_weixin.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/static/picture/huiben373.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/static/picture/img201803261212270.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/static/picture/img201803301619410.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/static/picture/jtyx470.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/static/picture/next1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/static/picture/next2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/static/picture/next3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/static/picture/next4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/static/picture/next5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/static/picture/potential366.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/static/picture/qingxu01.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/static/picture/qingxu02.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/static/picture/qingxu03.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/static/picture/qingxu04.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/static/picture/ruyuanji470.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/static/picture/shipu01.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/static/picture/shipu02.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/static/picture/shipu03.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/static/picture/shipu04.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/static/picture/tea01.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/static/picture/tea02.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/static/picture/tea03.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/static/picture/tea04.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/static/picture/tea05.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/static/picture/tea06.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/static/picture/yuer01.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/static/picture/yuer02.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/static/picture/yuer03.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/static/picture/yuer04.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/static/picture/yx_app1920.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/static/picture/yy01.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/static/picture/yy02.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/static/picture/yy03.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/static/picture/yy04.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/static/picture/yy05.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/static/picture/ziyuan1920.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/static/picture/zy_01.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/static/picture/zy_02.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/static/picture/zy_03.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/static/picture/zy_04.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/static/picture/zy_05.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/tools/cache-tool.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/favicon.ico" beforeDir="false" afterPath="$PROJECT_DIR$/public/favicon.ico" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/logo192.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/logo512.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/manifest.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/robots.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.test.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/logo.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/serviceWorker.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/setupTests.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/.tmp/" />
+    <ignored path="$PROJECT_DIR$/temp/" />
+    <ignored path="$PROJECT_DIR$/tmp/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/pages/register/Register.jsx">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="330">
+              <caret line="71" column="11" lean-forward="true" selection-start-line="61" selection-start-column="7" selection-end-line="71" selection-end-column="11" />
+              <folding>
+                <element signature="e#0#25#0" expanded="true" />
+                <element signature="e#74#120#0" expanded="true" />
+                <element signature="e#351#936#0" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/api/index.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1020">
+              <caret line="34" column="21" lean-forward="true" selection-start-line="34" selection-start-column="21" selection-end-line="34" selection-end-column="21" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/setupProxy.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="120">
+              <caret line="4" column="15" lean-forward="true" selection-start-line="4" selection-start-column="15" selection-end-line="4" selection-end-column="15" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/api/userApi.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="150">
+              <caret line="5" column="47" lean-forward="true" selection-start-line="5" selection-start-column="43" selection-end-line="5" selection-end-column="47" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JavaScript File" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>__1442221540</find>
+      <find>loading.jpg</find>
+      <find>online_consul_btn.__1427252912__.gif</find>
+      <find>style</find>
+      <find>zc-qsr</find>
+    </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/public/index.html" />
+        <option value="$PROJECT_DIR$/src/api/index.js" />
+        <option value="$PROJECT_DIR$/src/pages/not-found/NotFound.jsx" />
+        <option value="$PROJECT_DIR$/src/components/Share.jsx" />
+        <option value="$PROJECT_DIR$/src/static/css/index.css" />
+        <option value="$PROJECT_DIR$/src/components/Footer.jsx" />
+        <option value="$PROJECT_DIR$/src/pages/home/components/HomeSowing.jsx" />
+        <option value="$PROJECT_DIR$/src/pages/home/components/HomeCard.jsx" />
+        <option value="$PROJECT_DIR$/src/pages/home/components/HomeResource.jsx" />
+        <option value="$PROJECT_DIR$/src/pages/home/components/HomeJob.jsx" />
+        <option value="$PROJECT_DIR$/src/pages/home/components/HomeActivities.jsx" />
+        <option value="$PROJECT_DIR$/src/pages/home/components/HomeLive.jsx" />
+        <option value="$PROJECT_DIR$/src/pages/home/Home.jsx" />
+        <option value="$PROJECT_DIR$/src/pages/home/components/HomeNav.jsx" />
+        <option value="$PROJECT_DIR$/src/components/TopLink.jsx" />
+        <option value="$PROJECT_DIR$/src/pages/resource/Resource.jsx" />
+        <option value="$PROJECT_DIR$/src/pages/resource/pages/ResourceList.jsx" />
+        <option value="$PROJECT_DIR$/src/pages/resource/pages/ResourceDetail.jsx" />
+        <option value="$PROJECT_DIR$/src/pages/lifejob/LifeJob.jsx" />
+        <option value="$PROJECT_DIR$/src/pages/lifejob/pages/LifeJobDetail.jsx" />
+        <option value="$PROJECT_DIR$/src/pages/lifejob/pages/LifeJobList.jsx" />
+        <option value="$PROJECT_DIR$/src/pages/activities/Activities.jsx" />
+        <option value="$PROJECT_DIR$/src/pages/activities/pages/ActivitiesList.jsx" />
+        <option value="$PROJECT_DIR$/src/pages/activities/pages/ActivitiesDetail.jsx" />
+        <option value="$PROJECT_DIR$/src/pages/live/Live.jsx" />
+        <option value="$PROJECT_DIR$/src/pages/user-center/pages/UserActivities.jsx" />
+        <option value="$PROJECT_DIR$/src/pages/user-center/pages/UserLive.jsx" />
+        <option value="$PROJECT_DIR$/src/pages/user-center/pages/UserResource.jsx" />
+        <option value="$PROJECT_DIR$/src/pages/user-center/pages/UserFav.jsx" />
+        <option value="$PROJECT_DIR$/src/pages/user-center/pages/UserAccount.jsx" />
+        <option value="$PROJECT_DIR$/src/index.js" />
+        <option value="$PROJECT_DIR$/src/App.js" />
+        <option value="$PROJECT_DIR$/src/pages/user-center/UserCenter.jsx" />
+        <option value="$PROJECT_DIR$/src/components/TopNav.jsx" />
+        <option value="$PROJECT_DIR$/src/static/css/common.css" />
+        <option value="$PROJECT_DIR$/src/pages/login/Login.jsx" />
+        <option value="$PROJECT_DIR$/src/config/config.js" />
+        <option value="$PROJECT_DIR$/src/api/userApi.js" />
+        <option value="$PROJECT_DIR$/src/setupProxy.js" />
+        <option value="$PROJECT_DIR$/src/pages/register/Register.jsx" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectConfigurationFiles">
+    <option name="files">
+      <list>
+        <option value="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" />
+        <option value="$PROJECT_DIR$/.idea/yq-client.iml" />
+        <option value="$PROJECT_DIR$/.idea/vcs.xml" />
+        <option value="$PROJECT_DIR$/.idea/misc.xml" />
+        <option value="$PROJECT_DIR$/.idea/modules.xml" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="7">
+    <option name="x" value="-8" />
+    <option name="width" value="1935" />
+    <option name="height" value="1038" />
+  </component>
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="yq-client" type="b2602c69:ProjectViewProjectNode" />
+              <item name="yq-client" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="yq-client" type="b2602c69:ProjectViewProjectNode" />
+              <item name="yq-client" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="yq-client" type="b2602c69:ProjectViewProjectNode" />
+              <item name="yq-client" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="api" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="yq-client" type="b2602c69:ProjectViewProjectNode" />
+              <item name="yq-client" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="config" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="yq-client" type="b2602c69:ProjectViewProjectNode" />
+              <item name="yq-client" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="pages" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="yq-client" type="b2602c69:ProjectViewProjectNode" />
+              <item name="yq-client" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="pages" type="462c0819:PsiDirectoryNode" />
+              <item name="register" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="yq-client" type="b2602c69:ProjectViewProjectNode" />
+              <item name="yq-client" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="tools" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/config" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="nodejs_package_manager_path" value="yarn" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\叶建华\Desktop\江西-引擎计划\08-项目实战\代码\yq-client\src\config" />
+      <recent name="C:\Users\叶建华\Desktop\江西-引擎计划\08-项目实战\代码\yq-client\src\tools" />
+      <recent name="C:\Users\叶建华\Desktop\江西-引擎计划\08-项目实战\代码\yq-client\src\pages" />
+      <recent name="C:\Users\叶建华\Desktop\江西-引擎计划\08-项目实战\代码\yq-client\src\pages\user-center\pages" />
+      <recent name="C:\Users\叶建华\Desktop\江西-引擎计划\08-项目实战\代码\yq-client\src\pages\activities\pages" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="3d9c6af4-651f-4657-9caf-c05c4f2edc5b" name="Default Changelist" comment="" />
+      <created>1600391645391</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1600391645391</updated>
+      <workItem from="1600391646567" duration="23162000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="23162000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-7" y="-7" width="1550" height="838" extended-state="7" />
+    <editor active="true" />
+    <layout>
+      <window_info id="npm" side_tool="true" />
+      <window_info id="Favorites" side_tool="true" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.13738441" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" />
+      <window_info anchor="bottom" id="Terminal" weight="0.3286119" />
+      <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/public/css/cssreset.css">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="10" column="9" lean-forward="true" selection-start-line="10" selection-start-column="9" selection-end-line="10" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="11" column="24" lean-forward="true" selection-start-line="11" selection-start-column="12" selection-end-line="11" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pages/not-found/NotFound.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="5" column="20" selection-start-line="5" selection-start-column="20" selection-end-line="5" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/Share.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="4" column="15" lean-forward="true" selection-start-line="4" selection-start-column="15" selection-end-line="4" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/static/css/index.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="217">
+          <caret line="81" column="4" selection-start-line="81" selection-start-column="4" selection-end-line="81" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/Footer.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="59" column="5" lean-forward="true" selection-start-line="59" selection-start-column="5" selection-end-line="59" selection-end-column="5" />
+          <folding>
+            <element signature="e#40#90#0" expanded="true" />
+            <element signature="e#122#2626#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pages/home/components/HomeCard.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="720">
+          <caret line="33" column="58" selection-start-line="33" selection-start-column="58" selection-end-line="33" selection-end-column="58" />
+          <folding>
+            <element signature="e#37#119#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pages/home/components/HomeResource.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="593">
+          <caret line="135" column="30" selection-start-line="135" selection-start-column="30" selection-end-line="135" selection-end-column="30" />
+          <folding>
+            <element signature="e#37#117#0" expanded="true" />
+            <element signature="e#596#1391#0" />
+            <element signature="e#1660#2545#0" />
+            <element signature="e#2570#3455#0" />
+            <element signature="e#3480#4365#0" />
+            <element signature="e#4390#5275#0" />
+            <element signature="e#5300#6185#0" />
+            <element signature="e#6210#7095#0" />
+            <element signature="e#7120#8005#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pages/home/components/HomeJob.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="593">
+          <caret line="73" column="30" selection-start-line="73" selection-start-column="30" selection-end-line="73" selection-end-column="30" />
+          <folding>
+            <element signature="e#37#117#0" expanded="true" />
+            <element signature="e#777#1499#0" />
+            <element signature="e#1598#2397#0" />
+            <element signature="e#2425#3224#0" />
+            <element signature="e#3249#4048#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pages/home/components/HomeActivities.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="413">
+          <caret line="98" column="30" selection-start-line="19" selection-start-column="22" selection-end-line="98" selection-end-column="30" />
+          <folding>
+            <element signature="e#37#119#0" expanded="true" />
+            <element signature="e#750#1991#0" />
+            <element signature="e#2076#3315#0" />
+            <element signature="e#3343#4582#0" />
+            <element signature="e#4607#5846#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pages/home/components/HomeLive.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="593">
+          <caret line="102" column="30" selection-start-line="102" selection-start-column="30" selection-end-line="102" selection-end-column="30" />
+          <folding>
+            <element signature="e#37#119#0" expanded="true" />
+            <element signature="e#833#2218#0" />
+            <element signature="e#2211#3565#0" />
+            <element signature="e#3591#4945#0" />
+            <element signature="e#4970#6324#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pages/home/components/HomeNav.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="38" column="50" lean-forward="true" selection-start-line="38" selection-start-column="50" selection-end-line="38" selection-end-column="50" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pages/home/components/HomeSowing.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="13" column="29" lean-forward="true" selection-start-line="11" selection-start-column="23" selection-end-line="13" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/TopLink.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="420">
+          <caret line="26" column="29" lean-forward="true" selection-start-line="26" selection-start-column="29" selection-end-line="26" selection-end-column="29" />
+          <folding>
+            <element signature="e#0#25#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pages/resource/pages/ResourceDetail.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="390">
+          <caret line="177" column="18" lean-forward="true" selection-start-line="13" selection-start-column="10" selection-end-line="177" selection-end-column="18" />
+          <folding>
+            <element signature="e#37#107#0" expanded="true" />
+            <element signature="e#520#13575#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pages/lifejob/pages/LifeJobDetail.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="390">
+          <caret line="13" column="12" lean-forward="true" selection-start-line="13" selection-start-column="12" selection-end-line="13" selection-end-column="12" />
+          <folding>
+            <element signature="e#0#25#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pages/lifejob/pages/LifeJobList.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="89" column="30" lean-forward="true" selection-end-line="229" />
+          <folding>
+            <element signature="e#0#25#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pages/activities/pages/ActivitiesList.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="7" column="24" selection-end-line="312" />
+          <folding>
+            <element signature="e#0#25#0" expanded="true" />
+            <element signature="e#891#5335#0" />
+            <element signature="e#1413#2355#0" />
+            <element signature="e#2760#3560#0" />
+            <element signature="e#4001#5211#0" />
+            <element signature="e#5579#5946#0" />
+            <element signature="e#6135#7076#0" />
+            <element signature="e#9123#10350#0" />
+            <element signature="e#10384#11611#0" />
+            <element signature="e#11644#12871#0" />
+            <element signature="e#12904#14131#0" />
+            <element signature="e#14164#15391#0" />
+            <element signature="e#15424#16651#0" />
+            <element signature="e#16684#17911#0" />
+            <element signature="e#17944#19171#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pages/activities/pages/ActivitiesDetail.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-390">
+          <caret line="38" column="56" selection-start-line="36" selection-start-column="45" selection-end-line="38" selection-end-column="56" />
+          <folding>
+            <element signature="e#0#25#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pages/live/pages/LiveList.jsx">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pages/lifejob/LifeJob.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="227">
+          <caret line="12" column="49" lean-forward="true" selection-end-line="31" />
+          <folding>
+            <element signature="e#95#141#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pages/live/Live.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="923">
+          <caret line="86" column="121" selection-start-line="86" selection-start-column="121" selection-end-line="86" selection-end-column="121" />
+          <folding>
+            <element signature="e#37#83#0" expanded="true" />
+            <element signature="e#976#1676#0" />
+            <element signature="e#2113#2807#0" />
+            <element signature="e#3258#3958#0" />
+            <element signature="e#8601#9961#0" />
+            <element signature="e#10017#11401#0" />
+            <element signature="e#11435#12819#0" />
+            <element signature="e#12852#14236#0" />
+            <element signature="e#14269#15653#0" />
+            <element signature="e#15686#17070#0" />
+            <element signature="e#17103#18487#0" />
+            <element signature="e#18520#19904#0" />
+            <element signature="e#19937#21321#0" />
+            <element signature="e#21354#22738#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pages/resource/Resource.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="2" selection-start-line="2" selection-end-line="8" selection-end-column="46" />
+          <folding>
+            <element signature="e#95#141#0" expanded="true" />
+            <element signature="e#249#296#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pages/resource/pages/ResourceList.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="321">
+          <caret line="13" column="14" lean-forward="true" selection-end-line="312" />
+          <folding>
+            <element signature="e#86#141#0" expanded="true" />
+            <element signature="e#396#758#0" />
+            <element signature="e#775#19220#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pages/user-center/pages/UserResource.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="593">
+          <caret line="59" column="26" selection-start-line="59" selection-start-column="26" selection-end-line="59" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pages/user-center/pages/UserActivities.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="570">
+          <caret line="114" column="26" selection-start-line="114" selection-start-column="26" selection-end-line="114" selection-end-column="26" />
+          <folding>
+            <element signature="e#37#110#0" expanded="true" />
+            <element signature="e#535#1454#0" />
+            <element signature="e#1616#2628#0" />
+            <element signature="e#2649#3661#0" />
+            <element signature="e#3682#4694#0" />
+            <element signature="e#4715#5727#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pages/user-center/pages/UserFav.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="420">
+          <caret line="44" column="26" lean-forward="true" selection-end-line="175" />
+          <folding>
+            <element signature="e#37#116#0" expanded="true" />
+            <element signature="e#545#896#0" />
+            <element signature="e#961#1329#0" />
+            <element signature="e#1351#1719#0" />
+            <element signature="e#1935#2927#0" />
+            <element signature="e#2968#3980#0" />
+            <element signature="e#4001#5013#0" />
+            <element signature="e#5268#6352#0" />
+            <element signature="e#6570#7760#0" />
+            <element signature="e#7783#8973#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pages/user-center/pages/UserAccount.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="480">
+          <caret line="102" column="108" selection-start-line="102" selection-start-column="108" selection-end-line="102" selection-end-column="108" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pages/user-center/pages/UserLive.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="429">
+          <caret line="144" column="50" lean-forward="true" selection-end-line="157" />
+          <folding>
+            <element signature="e#37#110#0" expanded="true" />
+            <element signature="e#567#1699#0" />
+            <element signature="e#1743#2899#0" />
+            <element signature="e#2921#4077#0" />
+            <element signature="e#4098#5254#0" />
+            <element signature="e#5275#6431#0" />
+            <element signature="e#6452#7608#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pages/activities/Activities.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-30">
+          <caret line="11" column="7" selection-start-line="11" selection-start-column="7" selection-end-line="11" selection-end-column="7" />
+          <folding>
+            <element signature="e#95#141#0" expanded="true" />
+            <element signature="e#249#300#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/App.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="13" column="38" selection-start-line="13" selection-start-column="38" selection-end-line="13" selection-end-column="38" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="7" column="27" selection-start-line="7" selection-start-column="27" selection-end-line="7" selection-end-column="27" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+            <element signature="e#99#134#0" expanded="true" />
+            <element signature="e#105#137#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pages/user-center/UserCenter.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="450">
+          <caret line="97" column="46" selection-start-line="95" selection-start-column="41" selection-end-line="97" selection-end-column="46" />
+          <folding>
+            <element signature="e#547#614#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pages/home/Home.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="17" column="17" lean-forward="true" selection-start-line="17" selection-start-column="17" selection-end-line="17" selection-end-column="17" />
+          <folding>
+            <element signature="e#35#81#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/TopNav.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="32" column="30" lean-forward="true" selection-start-line="32" selection-start-column="30" selection-end-line="32" selection-end-column="30" />
+          <folding>
+            <element signature="e#0#25#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/static/css/common.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="178">
+          <caret line="1692" column="20" lean-forward="true" selection-start-line="1692" selection-start-column="20" selection-end-line="1692" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pages/login/Login.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="37" column="36" selection-start-line="37" selection-start-column="36" selection-end-line="37" selection-end-column="36" />
+          <folding>
+            <element signature="e#0#25#0" expanded="true" />
+            <element signature="e#35#81#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/tools/cache-tool.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="24" lean-forward="true" selection-start-column="15" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/config/config.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/api/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1020">
+          <caret line="34" column="21" lean-forward="true" selection-start-line="34" selection-start-column="21" selection-end-line="34" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/api/userApi.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="5" column="47" lean-forward="true" selection-start-line="5" selection-start-column="43" selection-end-line="5" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/setupProxy.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="4" column="15" lean-forward="true" selection-start-line="4" selection-start-column="15" selection-end-line="4" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pages/register/Register.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="71" column="11" lean-forward="true" selection-start-line="61" selection-start-column="7" selection-end-line="71" selection-end-column="11" />
+          <folding>
+            <element signature="e#0#25#0" expanded="true" />
+            <element signature="e#74#120#0" expanded="true" />
+            <element signature="e#351#936#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>

@@ -1,31 +1,28 @@
-import React from 'react'
+import React, {Component} from 'react';
+import { Switch, Route } from 'react-router-dom';
 
-// 引入路由组件
-import {Switch, Route} from 'react-router-dom'
+import TopNav from "../../components/top-nav";
+import Footer from "../../components/footer";
+import Share from "../../components/share";
+import TopLink from "../../components/top-link";
 
-// 引入公共组件
-import TopNav from './../../components/TopNav'
-import TopLink from './../../components/TopLink'
-import Footer from './../../components/Footer'
+import ResourceList from './pages/resource-list'
+import ResourceDetail from './pages/resource-detail'
 
-// 引入路由页面
-import ResourceList from './pages/ResourceList'
-import ResourceDetail from './pages/ResourceDetail'
 
-class Resource extends React.Component{
-    render() {
-        return (
-            <>
-               <TopNav />
-               <TopLink />
+export default class Resource extends Component{
+   render() {
+       return (
+           <div>
+                <TopNav />
+                <TopLink />
                 <Switch>
-                    <Route path={"/res/detail"} component={ResourceDetail}/>
-                    <Route path={"/res"} component={ResourceList}/>
+                    <Route path={"/resource/detail"} component={ResourceDetail}/>
+                    <Route path={"/resource"} component={ResourceList}/>
                 </Switch>
-               <Footer />
-            </>
+                <Footer />
+                <Share />
+            </div>
         )
     }
 }
-
-export default Resource;

@@ -1,21 +1,34 @@
-import React from 'react'
+import React, {Component} from 'react';
+import TopNav from "../../components/top-nav";
+import Footer from "../../components/footer";
+import Share from "../../components/share";
+import TopLink from "../../components/top-link";
 
-// 引入公共组件
-import TopNav from './../../components/TopNav'
-import TopLink from './../../components/TopLink'
-import Footer from './../../components/Footer'
+import banner_live from "../../static/images/banner_live.jpg";
 
-import lives_con_pic_1 from './../../static/images/lives_con_pic_1.jpg'
-import subscribe_ico from './../../static/images/subscribe_ico.png'
-import joblife_con_other_avatar from './../../static/images/joblife_con_other_avatar.png'
+import lives_con_pic_1 from "../../static/images/lives_con_pic_1.jpg";
+import subscribe_ico from "../../static/images/subscribe_ico.png";
+import joblife_con_other_avatar from "../../static/images/joblife_con_other_avatar.png";
 
 
-class LifeJob extends React.Component{
+export default class Live extends Component{
     render() {
         return (
-            <>
+            <div>
                 <TopNav />
                 <TopLink />
+                {/*封面*/}
+                <div className="mainWrap clearfix">
+                    <div className="banner_pagex">
+                        <ul className="banner_box">
+                            <li className="one"
+                                style={{background: "url("+ banner_live +") no-repeat top center"}}>
+                                <a href="#" target="_blank" />
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                {/*主面板*/}
                 <div className="mainwraper">
                     <div className="content content01x clearfix">
                         <div className="mainbox clearfix">
@@ -84,7 +97,7 @@ class LifeJob extends React.Component{
                                             </ul>
                                         </div>
                                     </li>
-                                    <li className="catalog__category-item--1xiWA bottom-border" style={{display: 'none'}}>
+                                    <li className="catalog__category-item--1xiWA bottom-border" style={{display: "none"}}>
                                         <div className="catalog__category-name-container--31pkW w100">
                                             <span>内容主题：</span>
                                         </div>
@@ -102,7 +115,7 @@ class LifeJob extends React.Component{
                                             </ul>
                                         </div>
                                     </li>
-                                    <li className="catalog__category-item--1xiWA bottom-border" style={{display: 'none'}}>
+                                    <li className="catalog__category-item--1xiWA bottom-border" style={{display: "none"}}>
                                         <div className="catalog__category-name-container--31pkW w100">
                                             <span>内容主题：</span>
                                         </div>
@@ -120,6 +133,7 @@ class LifeJob extends React.Component{
                                             </ul>
                                         </div>
                                     </li>
+
                                 </ul>
                             </div>
                         </div>
@@ -151,191 +165,12 @@ class LifeJob extends React.Component{
                                             <span className="lives_con_other_date">7月24日16:00直播</span>
                                             <span className="lives_con_other_subscribe">订阅</span>
                                             <span className="lives_con_other_subscribe_ico">
-                                                <img src={subscribe_ico}/></span>
-                                        </div>
-                                        <div className="lives_con_tags">
-                                            <span className="lives_con_tags_avatar">
-                                                <img src={joblife_con_other_avatar}/>
+                                                <img src={subscribe_ico} alt=""/>
                                             </span>
-                                            <span className="lives_con_tags_teacher">来自：刘晶波教授</span>
-                                        </div>
-                                    </a>
-                                </div>
-                                <div className="lives_con">
-                                    <a href="#">
-                                        <div className="lives_con_pic">
-                                            <img src={lives_con_pic_1}/>
-                                        </div>
-                                        <div className="lives_con_title">母亲情绪平和是对孩子最好的教育</div>
-                                        <div className="lives_con_other">
-                                            <span className="lives_con_other_date">7月24日16:00直播</span>
-                                            <span className="lives_con_other_subscribe">订阅</span>
-                                            <span className="lives_con_other_subscribe_ico">
-                                                <img src={subscribe_ico}/></span>
                                         </div>
                                         <div className="lives_con_tags">
                                             <span className="lives_con_tags_avatar">
-                                                <img src={joblife_con_other_avatar}/>
-                                            </span>
-                                            <span className="lives_con_tags_teacher">来自：刘晶波教授</span>
-                                        </div>
-                                    </a>
-                                </div>
-                                <div className="lives_con">
-                                    <a href="#">
-                                        <div className="lives_con_pic">
-                                            <img src={lives_con_pic_1}/>
-                                        </div>
-                                        <div className="lives_con_title">母亲情绪平和是对孩子最好的教育</div>
-                                        <div className="lives_con_other">
-                                            <span className="lives_con_other_date">7月24日16:00直播</span>
-                                            <span className="lives_con_other_subscribe">订阅</span>
-                                            <span className="lives_con_other_subscribe_ico">
-                                                <img src={subscribe_ico}/></span>
-                                        </div>
-                                        <div className="lives_con_tags">
-                                            <span className="lives_con_tags_avatar">
-                                                <img src={joblife_con_other_avatar}/>
-                                            </span>
-                                            <span className="lives_con_tags_teacher">来自：刘晶波教授</span>
-                                        </div>
-                                    </a>
-                                </div>
-                                <div className="lives_con">
-                                    <a href="#">
-                                        <div className="lives_con_pic">
-                                            <img src={lives_con_pic_1}/>
-                                        </div>
-                                        <div className="lives_con_title">母亲情绪平和是对孩子最好的教育</div>
-                                        <div className="lives_con_other">
-                                            <span className="lives_con_other_date">7月24日16:00直播</span>
-                                            <span className="lives_con_other_subscribe">订阅</span>
-                                            <span className="lives_con_other_subscribe_ico">
-                                                <img src={subscribe_ico}/></span>
-                                        </div>
-                                        <div className="lives_con_tags">
-                                            <span className="lives_con_tags_avatar">
-                                                <img src={joblife_con_other_avatar}/>
-                                            </span>
-                                            <span className="lives_con_tags_teacher">来自：刘晶波教授</span>
-                                        </div>
-                                    </a>
-                                </div>
-                                <div className="lives_con">
-                                    <a href="#">
-                                        <div className="lives_con_pic">
-                                            <img src={lives_con_pic_1}/>
-                                        </div>
-                                        <div className="lives_con_title">母亲情绪平和是对孩子最好的教育</div>
-                                        <div className="lives_con_other">
-                                            <span className="lives_con_other_date">7月24日16:00直播</span>
-                                            <span className="lives_con_other_subscribe">订阅</span>
-                                            <span className="lives_con_other_subscribe_ico">
-                                                <img src={subscribe_ico}/></span>
-                                        </div>
-                                        <div className="lives_con_tags">
-                                            <span className="lives_con_tags_avatar">
-                                                <img src={joblife_con_other_avatar}/>
-                                            </span>
-                                            <span className="lives_con_tags_teacher">来自：刘晶波教授</span>
-                                        </div>
-                                    </a>
-                                </div>
-                                <div className="lives_con">
-                                    <a href="#">
-                                        <div className="lives_con_pic">
-                                            <img src={lives_con_pic_1}/>
-                                        </div>
-                                        <div className="lives_con_title">母亲情绪平和是对孩子最好的教育</div>
-                                        <div className="lives_con_other">
-                                            <span className="lives_con_other_date">7月24日16:00直播</span>
-                                            <span className="lives_con_other_subscribe">订阅</span>
-                                            <span className="lives_con_other_subscribe_ico">
-                                                <img src={subscribe_ico}/></span>
-                                        </div>
-                                        <div className="lives_con_tags">
-                                            <span className="lives_con_tags_avatar">
-                                                <img src={joblife_con_other_avatar}/>
-                                            </span>
-                                            <span className="lives_con_tags_teacher">来自：刘晶波教授</span>
-                                        </div>
-                                    </a>
-                                </div>
-                                <div className="lives_con">
-                                    <a href="#">
-                                        <div className="lives_con_pic">
-                                            <img src={lives_con_pic_1}/>
-                                        </div>
-                                        <div className="lives_con_title">母亲情绪平和是对孩子最好的教育</div>
-                                        <div className="lives_con_other">
-                                            <span className="lives_con_other_date">7月24日16:00直播</span>
-                                            <span className="lives_con_other_subscribe">订阅</span>
-                                            <span className="lives_con_other_subscribe_ico">
-                                                <img src={subscribe_ico}/></span>
-                                        </div>
-                                        <div className="lives_con_tags">
-                                            <span className="lives_con_tags_avatar">
-                                                <img src={joblife_con_other_avatar}/>
-                                            </span>
-                                            <span className="lives_con_tags_teacher">来自：刘晶波教授</span>
-                                        </div>
-                                    </a>
-                                </div>
-                                <div className="lives_con">
-                                    <a href="#">
-                                        <div className="lives_con_pic">
-                                            <img src={lives_con_pic_1}/>
-                                        </div>
-                                        <div className="lives_con_title">母亲情绪平和是对孩子最好的教育</div>
-                                        <div className="lives_con_other">
-                                            <span className="lives_con_other_date">7月24日16:00直播</span>
-                                            <span className="lives_con_other_subscribe">订阅</span>
-                                            <span className="lives_con_other_subscribe_ico">
-                                                <img src={subscribe_ico}/></span>
-                                        </div>
-                                        <div className="lives_con_tags">
-                                            <span className="lives_con_tags_avatar">
-                                                <img src={joblife_con_other_avatar}/>
-                                            </span>
-                                            <span className="lives_con_tags_teacher">来自：刘晶波教授</span>
-                                        </div>
-                                    </a>
-                                </div>
-                                <div className="lives_con">
-                                    <a href="#">
-                                        <div className="lives_con_pic">
-                                            <img src={lives_con_pic_1}/>
-                                        </div>
-                                        <div className="lives_con_title">母亲情绪平和是对孩子最好的教育</div>
-                                        <div className="lives_con_other">
-                                            <span className="lives_con_other_date">7月24日16:00直播</span>
-                                            <span className="lives_con_other_subscribe">订阅</span>
-                                            <span className="lives_con_other_subscribe_ico">
-                                                <img src={subscribe_ico}/></span>
-                                        </div>
-                                        <div className="lives_con_tags">
-                                            <span className="lives_con_tags_avatar">
-                                                <img src={joblife_con_other_avatar}/>
-                                            </span>
-                                            <span className="lives_con_tags_teacher">来自：刘晶波教授</span>
-                                        </div>
-                                    </a>
-                                </div>
-                                <div className="lives_con">
-                                    <a href="#">
-                                        <div className="lives_con_pic">
-                                            <img src={lives_con_pic_1}/>
-                                        </div>
-                                        <div className="lives_con_title">母亲情绪平和是对孩子最好的教育</div>
-                                        <div className="lives_con_other">
-                                            <span className="lives_con_other_date">7月24日16:00直播</span>
-                                            <span className="lives_con_other_subscribe">订阅</span>
-                                            <span className="lives_con_other_subscribe_ico">
-                                                <img src={subscribe_ico}/></span>
-                                        </div>
-                                        <div className="lives_con_tags">
-                                            <span className="lives_con_tags_avatar">
-                                                <img src={joblife_con_other_avatar}/>
+                                                <img src={joblife_con_other_avatar} alt=""/>
                                             </span>
                                             <span className="lives_con_tags_teacher">来自：刘晶波教授</span>
                                         </div>
@@ -361,9 +196,8 @@ class LifeJob extends React.Component{
                     </div>
                 </div>
                 <Footer />
-            </>
+                <Share />
+            </div>
         )
     }
 }
-
-export default LifeJob;

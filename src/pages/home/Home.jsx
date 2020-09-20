@@ -1,34 +1,30 @@
-import React from 'react'
+import React, {Component} from 'react';
+import TopNav from '../../components/top-nav'
+import Footer from '../../components/footer'
+import Share from '../../components/share'
+import HomeNav from './components/home-nav'
+import HomeSowing from './components/home-sowing'
+import HomeCard from './components/home-card'
+import HomeResource from './components/home-resource'
+import HomeJob from './components/home-job'
+import HomeActivities from './components/home-activities'
+import HomeLive from './components/home-live'
 
-// 引入组件
-import TopNav from './../../components/TopNav'
-import Footer from './../../components/Footer'
-import HomeNav from './components/HomeNav'
-import HomeSowing from './components/HomeSowing'
-import HomeCard from './components/HomeCard'
-import HomeResource from './components/HomeResource'
-import HomeJob from './components/HomeJob'
-import HomeActivities from './components/HomeActivities'
-import HomeLive from './components/HomeLive'
-
-class Home extends React.Component{
+export default class Home extends Component{
     render() {
         return (
-           <>
-             <TopNav />
-             <HomeNav />
-             <HomeSowing />
-             <>
+           <div>
+               <TopNav />
+               <HomeNav />
+               <HomeSowing />
                <HomeCard />
                <HomeResource />
                <HomeJob />
                <HomeActivities />
                <HomeLive />
-             </>
-             <Footer />
-           </>
+               <Footer />
+               <Share />
+           </div>
         )
     }
 }
-
-export default Home;
